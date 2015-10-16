@@ -1,0 +1,21 @@
+Content Wrapper
+	Header Wrapper
+		Actual Header Wrapper -float: left
+			h2
+		Search Bar Wrapper -float: right
+	Left Content
+		Image Wrapper
+			Image
+		Body Content Wrapper
+			Several Individual blog wrappers
+				Header Div
+					h3 tag
+					Author
+				Blog Body Div
+					Content
+	Right Content
+		Menu Div
+		Older posts div
+		Most Read Posts div
+		RSS link div
+		bottom menu div

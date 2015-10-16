@@ -1,0 +1,113 @@
+body{
+	background-color:rgb(203, 235, 237);
+	font-family: sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+a:active{
+	text-decoration: underline;
+}
+
+li span{
+	position: relative;
+	left: -7px;
+}
+
+ul li{
+	color: gray;
+}
+#blog-wrapper{
+	max-width: 900px;
+	margin: auto;
+	background-color: white;
+	overflow: hidden;
+	border-radius: 1%;
+	border: gray 1px solid;
+}
+
+#header{
+	overflow: hidden;
+	padding: 1%;
+}
+
+#header .header-text{
+	font-size: 30px;
+	float: left;
+	color: #000099;
+}
+
+#header .search-bar{
+	float: right;
+}
+
+#header .search-bar input{
+	border-radius: 12%;
+	border: 1px solid #e6e6e6;
+}
+
+#main-container{
+	float: left;
+	width: 80%;
+}
+
+#right-rail{
+	width: 20%;
+	float: left;
+}
+
+#right-rail .right-rail-item{
+	background: #eaeaea;
+	border: 1px solid #999;
+	border-radius: 7%;
+	margin: 6% 10%;
+	padding: 10%;
+	font-size: 12px;
+}
+
+.right-rail-item .right-rail-item-header{
+	border-bottom: 1px gray solid;
+	padding: 0 0 5%;
+}
+
+.right-rail-item .right-rail-item-content{
+	margin: 5%  0 0 14%;
+	padding: 0 0 0;
+}
+
+.right-rail-item .right-rail-item-content li{
+	list-style-type: disc;
+	padding: 0 0 0;
+	margin: 0 0 0;
+}
+.blog-header-image img{
+	width: 80%;
+	margin: 2% 10% 0;
+}
+
+.blog-item{
+	padding: 0 2% 2%;
+}
+
+.blog-item .blog-item-header{
+	border-bottom: 1px solid #aaa;
+}
+
+.blog-item .blog-item-header h3{
+	font-size: 24px;
+	color: #09f;
+}
+
+.blog-item .blog-item-header .blog-author{
+	margin: 3% 0 1%;
+}
+
+.blog-item .blog-body{
+	padding: 1% 0 0;
+}
