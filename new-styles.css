@@ -1,0 +1,19 @@
+
+.blog-item{
+
+}
+a:nth-chile(odd){
+	background-color: #f4f4f4;
+}
+
+.modal-footer{
+	opcaity: .5;
+}
+
+.modal-footer h4{
+	color: #f4f4f4;
+	-webkit-text-stroke: 2px #ccc;
+}
+/*.blog-item:nth-child(odd){
+	background-color: #f4f4f4;
+}*/
